@@ -1,4 +1,5 @@
 {
+    "uid": "http://registry.pinf.org/cadorn.org/github/perstore/",
 	"name": "perstore",
 	"author": "Kris Zyp",
 	"email": "kriszyp@gmail.com",
@@ -13,5 +14,11 @@
 	"githubName": "perstore",
 	"type": "zip",
 	"location": "http://github.com/kriszyp/perstore/zipball/master",
-	"license":"AFL/BSD"
+	"license":"AFL/BSD",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/cadorn/perstore.git"
+        }
+    ]
 }
